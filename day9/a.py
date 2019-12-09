@@ -36,39 +36,21 @@ def intcode(program, input_instr=''):
     while opscode != '99':
         opscode = get_opscode(program[position])
         modes = get_modes(program[position])
-        # print(opscode)
-        # print(offset)
 
         if opscode == 1:
             p1=calc_value(program,modes[2],position+1,offset)
             p2=calc_value(program,modes[1],position+2,offset)
             p3=calc_value(program,modes[0],position+3,offset)
-            if len(program) <= p1:
-                value1 = 0
-            else:
-                value1 = program[p1]
-
-            if len(program) <= p2:
-                value2 = 0
-            else:
-                value2 = program[p2]
-
+            value1 = 0 if len(program) <= p1 else program[p1]
+            value2 = 0 if len(program) <= p2 else program[p2]
             write_array(program,p3,value1+value2)
             position += 4
         elif opscode == 2:
             p1=calc_value(program,modes[2],position+1,offset)
             p2=calc_value(program,modes[1],position+2,offset)
             p3=calc_value(program,modes[0],position+3,offset)
-            if len(program) <= p1:
-                value1 = 0
-            else:
-                value1 = program[p1]
-
-            if len(program) <= p2:
-                value2 = 0
-            else:
-                value2 = program[p2]
-
+            value1 = 0 if len(program) <= p1 else program[p1]
+            value2 = 0 if len(program) <= p2 else program[p2]
             write_array(program,p3,value1 * value2)
             position += 4
         elif opscode == 3:
