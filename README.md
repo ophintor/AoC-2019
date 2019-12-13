@@ -14,4 +14,6 @@ https://adventofcode.com/2019
 * Day 9: Sensor Boost
 * Day 10: Monitoring Station
 * Day 11: Space Police
+* Day 12: The N-Body Problem
+* Day 13: Care Package
 ...
