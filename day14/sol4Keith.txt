@@ -1,0 +1,219 @@
+Product(1x STKFG) <= [Product(2x VPVL) <= None, Product(7x FWMGM) <= None, Product(2x CXFTF) <= None, Product(11x MNCFX) <= None]
+Product(8x VPVL) <= [Product(17x NVRVD) <= None, Product(3x JNWZP) <= None]
+Product(1x FUEL) <= [Product(53x STKFG) <= None, Product(6x MNCFX) <= None, Product(46x VJHF) <= None, Product(81x HVMC) <= None, Product(68x CXFTF) <= None, Product(25x GNMV) <= None]
+Product(5x FWMGM) <= [Product(22x VJHF) <= None, Product(37x MNCFX) <= None]
+Product(4x NVRVD) <= [Product(139x ORE) <= None]
+Product(7x JNWZP) <= [Product(144x ORE) <= None]
+Product(3x HVMC) <= [Product(5x MNCFX) <= None, Product(7x RFSQX) <= None, Product(2x FWMGM) <= None, Product(2x VPVL) <= None, Product(19x CXFTF) <= None]
+Product(6x GNMV) <= [Product(5x VJHF) <= None, Product(7x MNCFX) <= None, Product(9x VPVL) <= None, Product(37x CXFTF) <= None]
+Product(6x MNCFX) <= [Product(145x ORE) <= None]
+Product(8x CXFTF) <= [Product(1x NVRVD) <= None]
+Product(4x RFSQX) <= [Product(1x VJHF) <= None, Product(6x MNCFX) <= None]
+Product(6x VJHF) <= [Product(176x ORE) <= None]
+Calculating ORE requirements for 1x FUEL
+Multiple: 1.0
+1.0x FUEL needs 53.0x STKFG
+Calculating ORE requirements for 53.0x STKFG
+Multiple: 53.0
+53.0x STKFG needs 106.0x VPVL
+Calculating ORE requirements for 106.0x VPVL
+Multiple: 14.0
+112.0x VPVL needs 238.0x NVRVD
+Calculating ORE requirements for 238.0x NVRVD
+Multiple: 60.0
+240.0x NVRVD needs 8340.0x ORE
+8340.0x ORE required
+ORE required for 238.0x NVRVD: 8340.0 - spare: {'NVRVD': 2.0}
+112.0x VPVL needs 42.0x JNWZP
+Calculating ORE requirements for 42.0x JNWZP
+Multiple: 6.0
+42.0x JNWZP needs 864.0x ORE
+864.0x ORE required
+ORE required for 42.0x JNWZP: 864.0 - spare: {'NVRVD': 2.0}
+ORE required for 106.0x VPVL: 9204.0 - spare: {'VPVL': 6.0, 'NVRVD': 2.0}
+53.0x STKFG needs 371.0x FWMGM
+Calculating ORE requirements for 371.0x FWMGM
+Multiple: 75.0
+375.0x FWMGM needs 1650.0x VJHF
+Calculating ORE requirements for 1650.0x VJHF
+Multiple: 275.0
+1650.0x VJHF needs 48400.0x ORE
+48400.0x ORE required
+ORE required for 1650.0x VJHF: 48400.0 - spare: {'VPVL': 6.0, 'NVRVD': 2.0}
+375.0x FWMGM needs 2775.0x MNCFX
+Calculating ORE requirements for 2775.0x MNCFX
+Multiple: 463.0
+2778.0x MNCFX needs 67135.0x ORE
+67135.0x ORE required
+ORE required for 2775.0x MNCFX: 67135.0 - spare: {'VPVL': 6.0, 'NVRVD': 2.0, 'MNCFX': 3.0}
+ORE required for 371.0x FWMGM: 115535.0 - spare: {'VPVL': 6.0, 'FWMGM': 4.0, 'NVRVD': 2.0, 'MNCFX': 3.0}
+53.0x STKFG needs 106.0x CXFTF
+Calculating ORE requirements for 106.0x CXFTF
+Multiple: 14.0
+112.0x CXFTF needs 14.0x NVRVD
+Using 2.0x spare NVRVD
+Calculating ORE requirements for 12.0x NVRVD
+Multiple: 3.0
+12.0x NVRVD needs 417.0x ORE
+417.0x ORE required
+ORE required for 12.0x NVRVD: 417.0 - spare: {'VPVL': 6.0, 'FWMGM': 4.0, 'MNCFX': 3.0}
+ORE required for 106.0x CXFTF: 417.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'MNCFX': 3.0}
+53.0x STKFG needs 583.0x MNCFX
+Using 3.0x spare MNCFX
+Calculating ORE requirements for 580.0x MNCFX
+Multiple: 97.0
+582.0x MNCFX needs 14065.0x ORE
+14065.0x ORE required
+ORE required for 580.0x MNCFX: 14065.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'MNCFX': 2.0}
+ORE required for 53.0x STKFG: 139221.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'MNCFX': 2.0}
+1.0x FUEL needs 6.0x MNCFX
+Using 2.0x spare MNCFX
+Calculating ORE requirements for 4.0x MNCFX
+Multiple: 1.0
+6.0x MNCFX needs 145.0x ORE
+145.0x ORE required
+ORE required for 4.0x MNCFX: 145.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'MNCFX': 2.0}
+1.0x FUEL needs 46.0x VJHF
+Calculating ORE requirements for 46.0x VJHF
+Multiple: 8.0
+48.0x VJHF needs 1408.0x ORE
+1408.0x ORE required
+ORE required for 46.0x VJHF: 1408.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'VJHF': 2.0, 'MNCFX': 2.0}
+1.0x FUEL needs 81.0x HVMC
+Calculating ORE requirements for 81.0x HVMC
+Multiple: 27.0
+81.0x HVMC needs 135.0x MNCFX
+Using 2.0x spare MNCFX
+Calculating ORE requirements for 133.0x MNCFX
+Multiple: 23.0
+138.0x MNCFX needs 3335.0x ORE
+3335.0x ORE required
+ORE required for 133.0x MNCFX: 3335.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'VJHF': 2.0, 'MNCFX': 5.0}
+81.0x HVMC needs 189.0x RFSQX
+Calculating ORE requirements for 189.0x RFSQX
+Multiple: 48.0
+192.0x RFSQX needs 48.0x VJHF
+Using 2.0x spare VJHF
+Calculating ORE requirements for 46.0x VJHF
+Multiple: 8.0
+48.0x VJHF needs 1408.0x ORE
+1408.0x ORE required
+ORE required for 46.0x VJHF: 1408.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'VJHF': 2.0, 'MNCFX': 5.0}
+192.0x RFSQX needs 288.0x MNCFX
+Using 5.0x spare MNCFX
+Calculating ORE requirements for 283.0x MNCFX
+Multiple: 48.0
+288.0x MNCFX needs 6960.0x ORE
+6960.0x ORE required
+ORE required for 283.0x MNCFX: 6960.0 - spare: {'VPVL': 6.0, 'CXFTF': 6.0, 'FWMGM': 4.0, 'VJHF': 2.0, 'MNCFX': 5.0}
+ORE required for 189.0x RFSQX: 8368.0 - spare: {'CXFTF': 6.0, 'VPVL': 6.0, 'FWMGM': 4.0, 'VJHF': 2.0, 'RFSQX': 3.0, 'MNCFX': 5.0}
+81.0x HVMC needs 54.0x FWMGM
+Using 4.0x spare FWMGM
+Calculating ORE requirements for 50.0x FWMGM
+Multiple: 10.0
+50.0x FWMGM needs 220.0x VJHF
+Using 2.0x spare VJHF
+Calculating ORE requirements for 218.0x VJHF
+Multiple: 37.0
+222.0x VJHF needs 6512.0x ORE
+6512.0x ORE required
+ORE required for 218.0x VJHF: 6512.0 - spare: {'CXFTF': 6.0, 'VPVL': 6.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 5.0}
+50.0x FWMGM needs 370.0x MNCFX
+Using 5.0x spare MNCFX
+Calculating ORE requirements for 365.0x MNCFX
+Multiple: 61.0
+366.0x MNCFX needs 8845.0x ORE
+8845.0x ORE required
+ORE required for 365.0x MNCFX: 8845.0 - spare: {'CXFTF': 6.0, 'VPVL': 6.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0}
+ORE required for 50.0x FWMGM: 15357.0 - spare: {'CXFTF': 6.0, 'VPVL': 6.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0}
+81.0x HVMC needs 54.0x VPVL
+Using 6.0x spare VPVL
+Calculating ORE requirements for 48.0x VPVL
+Multiple: 6.0
+48.0x VPVL needs 102.0x NVRVD
+Calculating ORE requirements for 102.0x NVRVD
+Multiple: 26.0
+104.0x NVRVD needs 3614.0x ORE
+3614.0x ORE required
+ORE required for 102.0x NVRVD: 3614.0 - spare: {'CXFTF': 6.0, 'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0}
+48.0x VPVL needs 18.0x JNWZP
+Calculating ORE requirements for 18.0x JNWZP
+Multiple: 3.0
+21.0x JNWZP needs 432.0x ORE
+432.0x ORE required
+ORE required for 18.0x JNWZP: 432.0 - spare: {'CXFTF': 6.0, 'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+ORE required for 48.0x VPVL: 4046.0 - spare: {'CXFTF': 6.0, 'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+81.0x HVMC needs 513.0x CXFTF
+Using 6.0x spare CXFTF
+Calculating ORE requirements for 507.0x CXFTF
+Multiple: 64.0
+512.0x CXFTF needs 64.0x NVRVD
+Using 2.0x spare NVRVD
+Calculating ORE requirements for 62.0x NVRVD
+Multiple: 16.0
+64.0x NVRVD needs 2224.0x ORE
+2224.0x ORE required
+ORE required for 62.0x NVRVD: 2224.0 - spare: {'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+ORE required for 507.0x CXFTF: 2224.0 - spare: {'CXFTF': 5.0, 'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+ORE required for 81.0x HVMC: 33330.0 - spare: {'CXFTF': 5.0, 'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+1.0x FUEL needs 68.0x CXFTF
+Using 5.0x spare CXFTF
+Calculating ORE requirements for 63.0x CXFTF
+Multiple: 8.0
+64.0x CXFTF needs 8.0x NVRVD
+Using 2.0x spare NVRVD
+Calculating ORE requirements for 6.0x NVRVD
+Multiple: 2.0
+8.0x NVRVD needs 278.0x ORE
+278.0x ORE required
+ORE required for 6.0x NVRVD: 278.0 - spare: {'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+ORE required for 63.0x CXFTF: 278.0 - spare: {'CXFTF': 1.0, 'NVRVD': 2.0, 'VJHF': 4.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+1.0x FUEL needs 25.0x GNMV
+Calculating ORE requirements for 25.0x GNMV
+Multiple: 5.0
+30.0x GNMV needs 25.0x VJHF
+Using 4.0x spare VJHF
+Calculating ORE requirements for 21.0x VJHF
+Multiple: 4.0
+24.0x VJHF needs 704.0x ORE
+704.0x ORE required
+ORE required for 21.0x VJHF: 704.0 - spare: {'CXFTF': 1.0, 'NVRVD': 2.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 1.0, 'JNWZP': 3.0}
+30.0x GNMV needs 35.0x MNCFX
+Using 1.0x spare MNCFX
+Calculating ORE requirements for 34.0x MNCFX
+Multiple: 6.0
+36.0x MNCFX needs 870.0x ORE
+870.0x ORE required
+ORE required for 34.0x MNCFX: 870.0 - spare: {'CXFTF': 1.0, 'NVRVD': 2.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 3.0}
+30.0x GNMV needs 45.0x VPVL
+Calculating ORE requirements for 45.0x VPVL
+Multiple: 6.0
+48.0x VPVL needs 102.0x NVRVD
+Using 2.0x spare NVRVD
+Calculating ORE requirements for 100.0x NVRVD
+Multiple: 25.0
+100.0x NVRVD needs 3475.0x ORE
+3475.0x ORE required
+ORE required for 100.0x NVRVD: 3475.0 - spare: {'CXFTF': 1.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 3.0}
+48.0x VPVL needs 18.0x JNWZP
+Using 3.0x spare JNWZP
+Calculating ORE requirements for 15.0x JNWZP
+Multiple: 3.0
+21.0x JNWZP needs 432.0x ORE
+432.0x ORE required
+ORE required for 15.0x JNWZP: 432.0 - spare: {'CXFTF': 1.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 6.0}
+ORE required for 45.0x VPVL: 3907.0 - spare: {'CXFTF': 1.0, 'VPVL': 3.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 6.0}
+30.0x GNMV needs 185.0x CXFTF
+Using 1.0x spare CXFTF
+Calculating ORE requirements for 184.0x CXFTF
+Multiple: 23.0
+184.0x CXFTF needs 23.0x NVRVD
+Calculating ORE requirements for 23.0x NVRVD
+Multiple: 6.0
+24.0x NVRVD needs 834.0x ORE
+834.0x ORE required
+ORE required for 23.0x NVRVD: 834.0 - spare: {'VPVL': 3.0, 'NVRVD': 1.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 6.0}
+ORE required for 184.0x CXFTF: 834.0 - spare: {'VPVL': 3.0, 'NVRVD': 1.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 6.0}
+ORE required for 25.0x GNMV: 6315.0 - spare: {'GNMV': 5.0, 'VPVL': 3.0, 'NVRVD': 1.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 6.0}
+ORE required for 1x FUEL: 180697.0 - spare: {'GNMV': 5.0, 'VPVL': 3.0, 'NVRVD': 1.0, 'VJHF': 3.0, 'RFSQX': 3.0, 'MNCFX': 2.0, 'JNWZP': 6.0}
+Test 4, ORE required expected 180697, actual 180697.0: SUCCESS
