@@ -37,17 +37,24 @@ def main():
         reactions = f.read().splitlines()
 
     global requirements, conversions
-    fuel = 1
-
-    requirements = { "FUEL": fuel, "ORE": 0 }
-    conversions  = {}
+    ore_goal = 1000000000000
+    fuel_estimate = 7659730 # Close estimation
+    conversions = {}
 
     for reaction in reactions:
         left, right = reaction.split(' => ')
         conversions[right] = left
 
-    calculate_ingredients(conversions, fuel, "FUEL", 0)
-    print(requirements["ORE"])
+    while True:
+        requirements = { "FUEL": fuel_estimate, "ORE": 0 }
+        calculate_ingredients(conversions, fuel_estimate, "FUEL", 0)
+        if requirements["ORE"] < ore_goal:
+            fuel_estimate += 1
+        else:
+            fuel_estimate -= 1
+            break
+
+    print("Solution:", fuel_estimate)
 
 if __name__ == '__main__':
     main()
